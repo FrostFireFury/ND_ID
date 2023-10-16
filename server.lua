@@ -8,8 +8,7 @@ if ShowID then
         local targetPlayer = tonumber(args[1])
 
         if not targetPlayer then
-            local message = '~r~ERROR: Invalid player ID.'
-            TriggerClientEvent('chatMessage', source, "SYSTEM", {255, 0, 0}, message)
+            TriggerClientEvent('displayNotification', source, '~g~Please put an ID.')
             return
         end
 
