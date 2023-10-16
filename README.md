@@ -5,3 +5,8 @@ A simple ID script for ND_Framework
 
 Simple, but it work!
 Works on OneSync Infinity
+
+ToDo
+- /showid Displays your ID to the cloest player
+- Ability to give false ID
+- Department Specific ID
